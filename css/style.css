@@ -1,0 +1,83 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background-image: url(../img/legno2.jpg);
+ background-repeat:  no-repeat;
+ background-color: brown;
+ background-size:  auto;
+ background-position: left center;
+ font-family:"Times New Roman", Times, serif;
+}
+.titolo{
+ margin:20px auto;
+ width: 1000px;
+ height: 200px;
+}
+img{
+ float: left;
+ padding-right: 15px;
+ border-radius: 10px;
+}
+h1{
+ color: red;
+ font-size: 100px;
+}
+hr{
+ margin-bottom: 15px;
+ margin-top: 15px;
+}
+#input{
+  padding: 4px 3px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
+#button{
+ padding: 5px 5px;
+ font-size: 15px;
+ border-radius: 10px;
+ background-color: red;
+ cursor: progress;
+}
+h2{
+ margin-top: 30px;
+ color: red;
+}
+#giallo{
+ background-color: orange;
+ border-radius: 20px;
+}
+#posta{
+ background-color: lightgrey;
+ margin-bottom: 10px;
+ font-size: 17px;
+ color: red;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.caselle{
+ border: 2px solid red;
+ background-color: lightgrey;
+ opacity: 0.8;
+}
+.check{
+ cursor: pointer;
+}
+.cavallo{
+ font-size: 30px;
+ color: red;
+}
+.grigio{
+ font-size: 25px;
+ color: grey;
+ opacity: 0.5;
+}
+footer{
+ text-align: center;
+ font-size: 30px;
+ color: red;
+ padding-top: 10px;
+}
